@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  z-index: 10;
+  padding: 5px 0;
+  background-color: #ffffff;
+  box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header__logo-img {
+}
+.header__logo-text {
+  max-width: 170px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 14px;
+}
+.header__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.header__item:not(:last-child) {
+  margin-right: 18px;
+}
+.header__item-link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+.header__item-link:hover {
+  opacity: 0.6;
+}
+.header__lang {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4a4a4a;
+}
+.header__lang-rus {
+  margin-right: 5px;
+  border: none;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+.header__lang-rus .active {
+  text-decoration: line-through;
+}
+.header__lang-rus:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.header__lang-uz {
+  margin-left: 5px;
+  border: none;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+.header__lang-uz:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.header__login {
+}
+.header__login-kirish {
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #4e72ca;
+  text-decoration: none;
+}
+.header__login-bd {
+  font-weight: 700;
+  color: #4e72ca;
+}
+.header__login-registratsiya {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #4e72ca;
+  text-decoration: none;
+}
+
+.header__profil {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header__profil-name {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #787993;
+  margin-right: 13px;
+}
+.header__profil-img {
+  border: 1px solid #979797;
+  border-radius: 20.5px;
+}
+.language {
+  width: 60px;
+  padding: 3px;
+  outline: none;
+  border: none;
+  border: 1px solid #979797;
+  border-radius: 7px;
+}

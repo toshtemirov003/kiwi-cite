@@ -1,0 +1,36 @@
+.profile__footer {
+  padding: 23px 0;
+  margin-top: 76px;
+  background-color: #282b30;
+  /* margin-bottom: auto; */
+}
+.profile__footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.footer__logo-text {
+  max-width: 175px;
+  margin-left: 14px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.footer__desc {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #98a4b7;
+  max-width: 325px;
+}
+.footer__logos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

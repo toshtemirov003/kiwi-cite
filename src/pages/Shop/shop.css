@@ -1,0 +1,210 @@
+.add {
+  padding: 0 300px;
+  padding-top: 50px;
+}
+.add__form-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+}
+.add__label-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.add__label-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.add__label-price-inp {
+  max-width: 162px;
+  margin-right: 43px;
+  padding-top: 10px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+.add__select-sum {
+  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-top: 10px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+.add__checkbox {
+  margin-top: 10px;
+  background-color: transparent;
+}
+.add__checkbox-labell {
+  width: 192px;
+  margin-top: 10px;
+  margin-left: 11px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+.add__input-komnate {
+  max-width: 162px;
+  margin-right: 43px;
+  margin-top: 10px;
+  padding-bottom: 16px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+
+.add__form-address-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.add__form-address {
+  margin-top: 21px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-around; */
+}
+.add__form-address-box {
+  margin-right: 40px;
+}
+.add__form-check-wrap {
+}
+.add__checkbox {
+  display: inline-block;
+}
+.add__checkbox-label {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.add__form-selects {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+}
+.add__form-selects-wrap {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.add__form-selects-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.add__form-selects-select {
+  width: 338px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-top: 10px;
+  outline: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+.add__form-selects-select--width {
+  width: 229px;
+}
+.add__form-textarea {
+  width: 688px;
+  padding: 15px 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+  resize: none;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+.add__form-address-title--area {
+}
+.add__form-textarea-text {
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.55;
+}
+.add__form-images {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  margin-bottom: 23px;
+}
+.add__form-address-title-2 {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.add__form-inputs {
+  margin-top: 22px;
+}
+.add__form-input {
+  display: flex;
+  flex-direction: column;
+}
+.add__form-input-number {
+  margin-bottom: 13px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.add__form-inp {
+  max-width: 309px;
+  margin-bottom: 31px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+.add__form-btn {
+  padding: 20px 45px;
+  margin-top: 16px;
+  margin-bottom: 50px;
+  border: none;
+  background-color: #19d476;
+  border-radius: 13px;
+  transition: opacity 0.3s ease;
+}
+.add__form-btn:hover {
+  opacity: 0.7;
+}
+.add__form-link {
+  display: inline-block;
+  margin-left: 67px;
+  font-size: 19px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #4e72ca;
+  border: none;
+  background-color: transparent;
+  transition: color 0.3s ease;
+}
+.add__form-link:hover {
+  color: blue;
+}
